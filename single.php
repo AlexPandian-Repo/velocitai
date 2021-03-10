@@ -18,16 +18,6 @@ if (isset($_GET['id']) & !empty($_GET['id'])) {
 if (isset($_SESSION['customerid'])) {
 	$uid = $_SESSION['customerid'];
 }
-if (isset($_POST) & !empty($_POST)) {
-	$review = filter_var($_POST['review'], FILTER_SANITIZE_STRING);
-	$revsql = "INSERT INTO reviews (pid, uid, review) VALUES ($id, $uid, '$review')";
-	$revres = mysqli_query($connection, $revsql);
-	if ($revres) {
-		$smsg = "Review Submitted Successfully";
-	} else {
-		$fmsg = "Failed to Submit Review";
-	}
-}
 
 ?>
 
