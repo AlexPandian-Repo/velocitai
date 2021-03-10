@@ -40,12 +40,9 @@ $r = mysqli_fetch_assoc($res);
 		<div>
 			<div>
 				<ul>
-					<li><a href="aarvi-eng.php">AARVI - Engine</a></li>
 					<li><a href="view-order.php">My Orders</a></li>
 					<li><a href="wishlist.php">Whishlist</a></li>
 					<li><a href="cart.php">Cart</a></li>
-					<li><a href="update-user.php">Update Password</a></li>
-					<li><a href="edit-address.php">Update Address</a></li>
 					<li><a href="logout.php">Logout</a></li>
 				</ul>
 			</div>
