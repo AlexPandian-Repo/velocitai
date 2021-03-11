@@ -1,5 +1,7 @@
 # velocitai
 
+You can see the working of project video by extracting the rar file.
+
 I assume that you all will have been aware how to run a project on local host using xampp, So I will tell you the further steps.
 
 1.Put all the files in htdocs as it is.
